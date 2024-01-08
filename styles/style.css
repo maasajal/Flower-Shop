@@ -1,12 +1,66 @@
 /* Google font import */
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap");
 
 /* Common styles */
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: #272727;
+  font-family: Lato;
+  font-weight: 800;
+}
+h3 {
+  color: #272727;
+  font-family: Lato;
+  font-weight: 700;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding: 32px 0;
+}
+.btn-primary {
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 48px;
+  border: 0;
 }
 
-
-
-
+/* Header styles */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+header .banner-text {
+    width: 525px;
+}
+header .banner-text h1 {
+  font-size: 60px;
+}
+header .banner-text * {
+  margin-bottom: 32px 0;
+}
+header .banner img {
+    margin-top: 50px;
+}

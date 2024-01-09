@@ -18,6 +18,9 @@ h2 {
   font-family: Lato;
   font-weight: 800;
 }
+h2 {
+  font-size: 40px;
+}
 h3 {
   color: #272727;
   font-family: Lato;
@@ -84,9 +87,6 @@ header .banner img {
   text-align: center;
   margin: 100px auto;
 }
-.feature h2 {
-  font-size: 40px;
-}
 .feature .flex-items {
   gap: 24px;
 }
@@ -122,9 +122,6 @@ header .banner img {
 .hot-deal .flex-items {
   gap: 150px;
 }
-.hot-deal h2 {
-  font-size: 40px;
-}
 .hot-deal h2 span {
   color: #e55473;
 }
@@ -134,13 +131,31 @@ header .banner img {
   text-align: center;
   margin: 100px auto;
 }
-.instagram h2 {
-  font-size: 40px;
-}
 .instagram p {
   width: 594px;
   margin: 0 auto;
 }
 .instagram .flex-items {
   gap: 24px;
+}
+
+/* newsletter styles */
+.newsletter {
+  text-align: center;
+  background: url('../images/Rectangle\ 9.png') no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.newsletter input[type="email"] {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px;
+  width: 500px;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 10px;
 }
